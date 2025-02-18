@@ -4,6 +4,13 @@
 
 Implementations and benchmarks for various inter-process-communication (IPC) methods on Linux and OS X.
 
+## GDPRuler addition
+
+You can run `GDPRuler_microbenchmarks.sh` to execute the `pipe`, `domain` and `tcp` ipc benchmarks.
+The script will build the `ipc-bench` and execute the benchmarks with relevant parameters for the message passing of the project.
+It will print the results in `stdout`.
+Its purpose is to see the difference in performance between these 3 communication choices for different size of messages.
+
 ## Spectrum
 
 The following IPC methods are implemented.
