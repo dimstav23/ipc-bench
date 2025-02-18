@@ -1,4 +1,4 @@
-#!/bin/bash -i
+#!/bin/sh -i
 
 ./build/source/domain/domain -c 500000 -s 100
 ./build/source/fifo/fifo -c 500000 -s 100

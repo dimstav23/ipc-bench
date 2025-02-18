@@ -1,4 +1,4 @@
-#!/bin/bash -i
+#!/bin/sh -i
 
 result_directory=$(pwd)
 output="$result_directory/output"
